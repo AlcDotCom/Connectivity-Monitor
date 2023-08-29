@@ -1,0 +1,9 @@
+create table dbo.Connectivity_monitor (
+ID INT NOT NULL IDENTITY PRIMARY KEY,
+PC nvarchar(500),
+IP nvarchar(50),
+DowntimeDuration int,
+DowntimeStart datetime,
+DowntimeStop datetime,
+Shift nvarchar(50),
+ );
